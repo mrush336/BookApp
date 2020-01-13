@@ -1,0 +1,5 @@
++ add the html for displaying the library
+
++ add javascript for accessing the localStorage.getItem() to get objects from storage.
+
++
