@@ -11,9 +11,9 @@ function Book(title, author, pages, read = Boolean){
   }
   
 }
-//Get input from user
-let myLibrary = [];
 
+let myLibrary = [];
+//Add a book to the library
 function addBook(){
   const saveAs = document.getElementById('saveAs').value;
   const formTitle = document.getElementById('title').value;
@@ -30,6 +30,12 @@ function addBook(){
 }
 
 //localStorage.clear();
+//Look up a book
 function getBook(){
   
+}
+
+//Display books on screen
+function render(){
+
 }

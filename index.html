@@ -8,12 +8,15 @@
   <title>Books</title>
 </head>
 <body>
+  <div class="container" id="header">
+    <h1>Welcome to your library. <br>To get started add some<br> books down below!</h1>
+  </div>
   
   <div id="form">
     <form action="">
       <strong>Save as:</strong> <br>
       <input type="text" name="saveAs" id="saveAs"> <br>
-      <strong>Book title:</strong> <br>
+      <strong>Book Title:</strong> <br>
       <input type="text" name="title" id='title'> <br>
       <strong>Book Author:</strong> <br>
       <input type="text" name="author" id="author"> <br>
@@ -26,6 +29,17 @@
       <br>
       <button type="button" onclick="addBook()">Submit</button>
     </form>
+  </div>
+  <div class="library" id="output">
+    <div id="first-book">
+
+    </div>
+    <div id="second-book">
+      
+    </div>
+    <div id="third-book">
+
+    </div>
   </div>
   
 
