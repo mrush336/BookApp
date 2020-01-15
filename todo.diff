@@ -1,5 +1,5 @@
-+ add the html for displaying the library
++ add the html for displaying the library | add tables to display saved book info
 
 + add javascript for accessing the localStorage.getItem() to get objects from storage.
 
-+
++ add javascript to add book info into the table elements

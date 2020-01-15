@@ -1,16 +1,25 @@
-h1{
-  display: flex;
-  justify-content: left;
+body{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 25vh 75vh;
+  grid-gap: 1rem;
+  background-color: beige;
+  
+}
+
+h1, #header{
+  grid-column: 1 / span 2;
   font-family: fantasy;
 }
 
 #form{
   display: flex;
   justify-content: space-around;
-  background-color: beige;
+  background-color:darkgrey;
   padding-top: 2rem;
   padding-bottom: 2rem;
   width: 18rem; 
+
 }
 
 input{
@@ -18,7 +27,19 @@ input{
 }
 
 .library{
-  display: flex;
-  justify-content: right;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50% ;
+  background-color: white;
+  margin-right: 1rem;
+}
+
+thead{
+  grid-column: 1;
   background-color: darkgrey;
+  
+}
+tbody{
+  font-size: large;
+  text-align: center;
 }
