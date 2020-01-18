@@ -1,22 +1,6 @@
-function generateTableHead(table) {
-  let thead = table.createTHead();
-}
 
-function generateTableHead(table) {
-  let thead = table.createTHead();
-}
 let table = document.querySelector("table");
 generateTableHead(table);
-
-let mountains = [
-  { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
-    //
-];
-
-function generateTableHead(table) {
-  let thead = table.createTHead();
-  let row = thead.insertRow();
-}
 
 function generateTableHead(table, data) {
   let thead = table.createTHead();
@@ -31,3 +15,13 @@ function generateTableHead(table, data) {
 let table = document.querySelector("table");
 let data = Object.keys(mountains[0]);
 generateTableHead(table, data);
+
+
+Book.prototype.info = function(){
+  return (`${title}, written by ${author}, ${pages} pages, has been read? ${read}`);
+}
+
+ let storedLibrary = JSON.stringify(sample, null,);
+  localStorage.setItem(`${saveAs}`, storedLibrary);
+
+  
