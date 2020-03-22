@@ -1,5 +1,11 @@
-+ add the html for displaying the library | add tables to display saved book info
+# + add the html for displaying the library | add tables to display saved book info
 
 + add javascript for accessing the localStorage.getItem() to get objects from storage.
 
-+ add javascript to add book info into the table elements
+ 
+
++ add some styling to the page, fix the janky layout of the table header
+
++ add a button to delete individual entries
+
++ possibly change the way books are displayed altogether - create a card style div to display books seperately.
