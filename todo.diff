@@ -6,6 +6,6 @@
 
 + add some styling to the page, fix the janky layout of the table header
 
-+ add a button to delete individual entries
+#+ add a button to delete individual entries
 
 + possibly change the way books are displayed altogether - create a card style div to display books seperately.
